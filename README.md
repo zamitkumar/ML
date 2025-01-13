@@ -7,7 +7,7 @@ Steps:
 1. Import Libraries and Load Data from Database
 Import the necessary Python libraries, including those for machine learning and data manipulation.
 Load the cleaned dataset from the SQLite database using read_sql_table from pandas.
-Define the feature variable X (the message column) and the target variable Y (36 categories in the dataset).
+Define the feature variable X (the message column) and the target variable y (36 categories in the dataset).
 2. Build the Machine Learning Pipeline
 Build a machine learning pipeline to process the data and classify the messages.
 The pipeline should:
